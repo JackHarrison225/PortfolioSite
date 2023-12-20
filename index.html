@@ -16,32 +16,82 @@
           Accent Color: #e67e22 (Carrot Orange)
           Introduce this warm orange as an accent color to bring attention to specific details or interactive elements. It adds vibrancy without being too overpowering.
       -->
+      <!-- 
+          Background Color:
+          Hex: #1E1E1E
+
+          Text Color:
+          Hex: #D4D4D4
+
+          Selection Color:
+          Hex: #264F78
+
+          Foreground Color:
+          Hex: #D4D4D4
+          
+          Comment Color:
+          Hex: #608B4E
+
+          Keyword Color:
+          Hex: #569CD6
+
+          String Color:
+          Hex: #D69D85
+
+          Number Color:
+          Hex: #B5CEA8
+
+          Function and Method Color:
+          Hex: #DCDCAA
+
+          Variable Color:
+          Hex: #9CDCFE
+       -->
      <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>CV</title>
+          <title>Jack Harrison</title>
           <script src="https://cdn.tailwindcss.com"></script>
 
      </head>
 
-     <div id="NavBar" class="h-[100%] w-0 fixed z-[1] top-0 left-0 bg-[#3498db] text-center overflow-x-hidden pt-[10px] duration-500" style="font-family:'Roboto Slab',serif; font-weight: 500;">
-          <a href="index.html" class="p-[8px] text-[25px] block duration-300 bg-[#3498db] rounded-lg w-[75%] ml-[12.5%] my-5
-          text-[#333333] hover:text-[#e67e22]">Home</a>
-          <a href="pages/Projects.html" class="p-[8px] text-[25px] block duration-300 bg-[#3498db] rounded-lg w-[75%] ml-[12.5%] my-5
-          text-[#333333] hover:text-[#e67e22]">Projects</a> 
-          <a href="pages/Assests.html" class="p-[8px] text-[25px] block duration-300 bg-[#3498db] rounded-lg w-[75%] ml-[12.5%] my-5
-          text-[#333333] hover:text-[#e67e22]">Assests</a>
-          <a href="pages/CV.html" class="p-[8px] text-[25px] block duration-300 bg-[#3498db] rounded-lg w-[75%] ml-[12.5%] my-5
-          text-[#333333] hover:text-[#e67e22]">CV</a>
-     </div>
-        
-        
-     <body id="main" class="duration-500" style="font-family:'Roboto Slab',serif; font-weight: 500;">
-          <button type="button" id="MenuButton" onclick="OpenClose()"
-          class="p-[8px] text-[25px] block duration-500 bg-[#3498db] rounded-r-lg px-5
-          text-[#333333] hover:text-[#e67e22]">Menu</button>
+     <!-- NavBar Side -->
+     <nav id="NavBar" class="h-[100%] w-0 fixed z-[1] top-0 left-0 bg-[#264f78] text-center overflow-hidden pt-[10px] duration-500 text-[25px] max-sm:text-[18px]" style="font-family:'Georgia',serif; font-weight: 700;">
+          <img src="https://i.postimg.cc/VkLvz21J/DQ1A8351.jpg" alt="ME" class="block rounded-lg w-[75%] ml-[12.5%] my-5">
+          
+          <a href="index.html" 
+          class="p-[8px] block duration-300 bg-[#264f78] rounded-lg w-[75%] ml-[12.5%] my-5 text-[#ffff55] hover:bg-[#9cdcfe]">
+          Home</a>
 
-          <h3><h3>
+          <a href="pages/Projects.html" 
+          class="p-[8px] block duration-300 bg-[#264f78] rounded-lg w-[75%] ml-[12.5%] my-5 text-[#ffff55] hover:bg-[#9cdcfe]">
+          Projects</a> 
+
+          <a href="pages/Assests.html" 
+          class="p-[8px] block duration-300 bg-[#264f78] rounded-lg w-[75%] ml-[12.5%] my-5 text-[#ffff55] hover:bg-[#9cdcfe]">
+          Assests</a>
+
+          <a href="pages/CV.html" 
+          class="p-[8px] block duration-300 bg-[#264f78] rounded-lg w-[75%] ml-[12.5%] my-5 text-[#ffff55] hover:bg-[#9cdcfe]">
+          CV</a>
+
+     </nav>
+        
+     <!-- Anything here will be pushed to the side on menu open Main Section of Page -->
+     <body id="main" 
+          class="duration-500 text-left w-full h-full text-[#D4D4D4] bg-[#1E1E1E] overflow-x-hidden" 
+          style="font-family:'Georgia',serif; font-weight: 500;" >
+          
+          <!-- Open And Close Menu Button -->
+          <button type="button" id="MenuButton" onclick="OpenClose()" onmouseover="changeColour()" onmouseleave="changeColourBack()"
+               class="p-[8px] text-[25px] fixed block duration-500 bg-[#264F78] rounded-br-lg px-5 top-0 text-[#ffff55]"
+               >Menu</button>
+
+          <div class="w-[75%] h-[75%] ml-[12.5%] pl-[5%] leading-[55px] my-[17.5%]">
+               <h3 class="text-[60px]">Jack Harrison<h3>
+               <h3 class="text-[40px]">I am a full-stack developer based in Stockport.<h3>
+          </div>
+          
      </body>
      <script src="MenuNav.js"></script>
 </html>
