@@ -1,5 +1,7 @@
-open = false
+//Navagation Bar
+open = false //used to see if navbar is open
 
+//open and close navbar
 function OpenClose()
 {
      if(open == true)
@@ -14,6 +16,7 @@ function OpenClose()
      }
 }
 
+//everything that should be done when navbar opens
 function openNav() 
 {
      document.getElementById("NavBar").style.width = "225px";
@@ -24,7 +27,8 @@ function openNav()
      return document.getElementById("MenuButton").innerText = "Close"
    
 }
-  
+
+//everything that should be done when navbar closes
 function closeNav() 
 {
      document.getElementById("NavBar").style.width = "0";
@@ -36,7 +40,7 @@ function closeNav()
 
 }
 
-
+//hover colour change
 function changeColour(){
      if(open == true)
      {
@@ -50,6 +54,7 @@ function changeColour(){
      }
 }
 
+//stop hover colour change
 function changeColourBack(){
      if(open == true)
      {
@@ -62,3 +67,8 @@ function changeColourBack(){
           return document.getElementById("NavBar").style.backgroundColor = "#264f78"
      }
 }
+
+//event listeners for navbar menu
+document.getElementById("MenuButton").addEventListener("click", OpenClose)
+document.getElementById("MenuButton").addEventListener("mouseover", changeColour)
+document.getElementById("MenuButton").addEventListener("mouseleave", changeColourBack)
