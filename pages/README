@@ -1,0 +1,56 @@
+This is my portfolio website.
+<!-- 
+     This site contains my CV (DOWNLOADABLE), assests I have created (FOR GAMES/WEBSITES)
+     as well as my current and released projects (GAMES WEBSITES SOFTWARE).
+
+     This will also contain my contact information (Email, linkedin).
+-->
+
+colour schemes
+<!-- Primary Color: #3498db (Flat Blue)
+     This is a classic, professional blue that is commonly associated with technology and trust. It's also easy on the eyes and works well for the main elements of your portfolio.
+
+     Secondary Color: #2ecc71 (Emerald Green)
+     Use this green as an accent color to add energy and a sense of innovation. It can be applied to call-to-action buttons, highlights, or other important elements to create visual interest.
+
+     Background Color: #f8f8f8 (Light Gray)
+     A light gray background helps improve readability and reduces eye strain. It also provides a clean and modern look, allowing the content and visuals to stand out.
+
+     Text Color: #333333 (Dark Gray)
+     Use a dark gray for text to ensure good contrast against the light background. It enhances readability and maintains a professional appearance.
+
+     Accent Color: #e67e22 (Carrot Orange)
+     Introduce this warm orange as an accent color to bring attention to specific details or interactive elements. It adds vibrancy without being too overpowering.
+-->
+<!-- 
+     Background Color:
+     Hex: #1E1E1E
+
+     Text Color:
+     Hex: #D4D4D4
+
+     Selection Color:
+     Hex: #264F78
+
+     Foreground Color:
+     Hex: #D4D4D4
+
+     Comment Color:
+     Hex: #608B4E
+
+     Keyword Color:
+     Hex: #569CD6
+
+     String Color:
+     Hex: #D69D85
+
+     Number Color:
+     Hex: #B5CEA8
+
+     Function and Method Color:
+     Hex: #DCDCAA
+
+     Variable Color:
+     Hex: #9CDCFE 
+-->
+ 
