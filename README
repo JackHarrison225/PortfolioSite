@@ -23,3 +23,24 @@ colour schemes
      Introduce this warm orange as an accent color to bring attention to specific details or interactive elements. It adds vibrancy without being too overpowering.
 -->
 
+
+
+
+
+<!-- Possible Footer 
+          <footer class="w-full h-[225px]"> 
+               <div class="w-[50%] ml-[25%]">
+                   
+                    <a href="https://www.linkedin.com/in/jack-h-9713621b0/" target="_blank"><img class="block float-left duration-300 w-[10%] my-[10%] m-4 text-center hover:bg-[#9cdcfe] rounded-lg bg-[#ffffff]"
+                    src="https://i.postimg.cc/KzCBMJ9P/LI-In-Bug.png" alt="LinkedIn"></a>
+
+                    <a href="https://github.com/JackHarrison225" target="_blank"><img class="block float-left duration-300 w-[10%] my-[10%] m-4 text-center hover:bg-[#9cdcfe] rounded-lg bg-[#ffffff]"
+                    src="https://i.postimg.cc/mk29ttNf/githublogo.png" alt="GitHub"></a>
+
+                    <a href="" target="_blank"><img class="block float-left duration-300 w-[10%] my-[10%] m-4 text-center hover:bg-[#9cdcfe] rounded-lg bg-[#ffffff]"
+                    src="https://i.postimg.cc/mkvs0hSW/email-Logo.png" alt="Email"></a>
+
+                    <a href="https://jack-harrison225.itch.io" target="_blank"><img class="block float-left duration-300 w-[10%] my-[10%] m-4 hover:bg-[#9cdcfe] rounded-lg bg-[#ffffff]"
+                    src="https://i.postimg.cc/ZRRX4g4L/Itch-io-logo.png" alt="LOGO"></a>
+               </div>
+          </footer> -->

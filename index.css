@@ -1,0 +1,28 @@
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+     width: 10px;
+   }
+   
+/* Track */
+::-webkit-scrollbar-track {
+     background: #f8f8f8;
+     border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+     background: #111111;
+     border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+     background: #545454;
+}
+
+/* No scroll at bottom scroll smooth when chnage section */
+html{
+     overflow-x: hidden;
+     scroll-behavior: smooth;
+}

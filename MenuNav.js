@@ -68,7 +68,15 @@ function changeColourBack(){
      }
 }
 
-//event listeners for navbar menu
+
+//event listeners for navbar menuw button
 document.getElementById("MenuButton").addEventListener("click", OpenClose)
 document.getElementById("MenuButton").addEventListener("mouseover", changeColour)
 document.getElementById("MenuButton").addEventListener("mouseleave", changeColourBack)
+
+
+//event listeners for Nar Bar Buttons
+document.getElementById("HomeButton").addEventListener("click", OpenClose)
+document.getElementById("ProjectButton").addEventListener("click", OpenClose)
+document.getElementById("PortfolioButton").addEventListener("click", OpenClose)
+document.getElementById("CVButton").addEventListener("click", OpenClose)
