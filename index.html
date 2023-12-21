@@ -14,19 +14,19 @@
           <!-- My Image -->
           <img src="https://i.postimg.cc/VkLvz21J/DQ1A8351.jpg" alt="ME" class="block rounded-lg w-[75%] ml-[12.5%] my-5">
           <!-- Links For Pages -->
-          <a href="index.html" 
+          <a href="#Home" 
           class="p-[8px] block duration-300 bg-[#264f78] rounded-lg w-[75%] ml-[12.5%] my-5 text-[#ffff55] hover:bg-[#9cdcfe]">
           Home</a>
 
-          <a href="pages/Projects.html" 
+          <a href="#Projects" 
           class="p-[8px] block duration-300 bg-[#264f78] rounded-lg w-[75%] ml-[12.5%] my-5 text-[#ffff55] hover:bg-[#9cdcfe]">
           Projects</a> 
 
-          <a href="pages/Assests.html" 
+          <a href="#Portfolio" 
           class="p-[8px] block duration-300 bg-[#264f78] rounded-lg w-[75%] ml-[12.5%] my-5 text-[#ffff55] hover:bg-[#9cdcfe]">
-          Assests</a>
+          Portfolio</a>
 
-          <a href="pages/CV.html" 
+          <a href="#CV" 
           class="p-[8px] block duration-300 bg-[#264f78] rounded-lg w-[75%] ml-[12.5%] my-5 text-[#ffff55] hover:bg-[#9cdcfe]">
           CV</a>
           <!-- Account Links -->
@@ -39,7 +39,7 @@
         
      <!-- Anything here will be pushed to the side on menu open Main Section of Page -->
      <body id="main" 
-          class="duration-500 text-left w-full h-full text-[#D4D4D4] bg-[#1E1E1E] overflow-x-hidden" 
+          class="duration-500 text-left w-full h-full text-[#333333] bg-[#f8f8f8] overflow-x-hidden" 
           style="font-family:'Georgia',serif; font-weight: 500;">
           
           <!-- Open And Close Menu Button -->
@@ -48,11 +48,34 @@
                >Menu</button>
 
           <!-- Contents Of Page -->
-          <div class="w-[75%] h-[75%] ml-[12.5%] p-[5%] leading-[55px] my-[12.5%]">
-               <h3 class="text-[80px]">Jack Harrison<h3>
-               <h3 class="text-[45px]">I am a full-stack developer based in Stockport.<h3>
-          </div>
+
+          <section class="w-screen h-screen" id="Home">
+               <div class="w-[75%] h-[75%] ml-[12.5%] leading-[55px] my-[12.5%]">
+                    <h3 class="text-[80px] px-2 pt-[5%]">Jack Harrison<h3>
+                    <h3 class="text-[45px] px-2 pb-[5%]">I am a full-stack developer based in Stockport.<h3>
+               </div>
+          </section>
+
+          <section class="w-screen h-screen" id="Projects">
+               <div class="w-[75%] h-[75%] ml-[12.5%] leading-[55px] my-[12.5%]">
+                    <h3 class="text-[80px] px-2 pt-[5%]">Projects<h3>
+                    <h3 class="text-[45px] px-2 pb-[5%]">Current and previous projects<h3>
+               </div>
+          </section>
+
+          <section class="w-screen h-screen" id="Portfolio">
+               <div class="w-[75%] h-[75%] ml-[12.5%] leading-[55px] my-[12.5%]">
+                    <h3 class="text-[80px] px-2 pt-[5%]">Art<h3>
+                    <h3 class="text-[45px] px-2 pb-[5%]">section for my art portfolio<h3>
+               </div>
+          </section>
           
+          <section class="w-screen h-screen" id="CV">
+               <div class="w-[75%] h-[75%] ml-[12.5%] leading-[55px] my-[12.5%]">
+                    <h3 class="text-[80px] px-2 pt-[5%]">CV<h3>
+                    <h3 class="text-[45px] px-2 pb-[5%]">Section for my cv<h3>
+               </div>
+          </section>
      </body>
      <script src="MenuNav.js"></script>
 </html>
