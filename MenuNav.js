@@ -136,7 +136,6 @@ document.getElementById("MenuButton").addEventListener("mouseleave", changeColou
 //event listeners for Nar Bar Buttons
 document.getElementById("HomeButton").addEventListener("click", OpenClose)
 document.getElementById("ProjectButton").addEventListener("click", OpenClose)
-//document.getElementById("PortfolioButton").addEventListener("click", OpenClose)
 document.getElementById("CVButton").addEventListener("click", OpenClose)
 
 //set values for slideshow
