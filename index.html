@@ -71,16 +71,17 @@
                     <div class=" flex h-[50%] md:h-[75%] md:pl-[12.5%] md:w-[75%] rounded-lg" id="ProjectsCarasel">
                          <button class="bg-[#000000aa] w-[10%] rounded-l-lg text-white hover:bg-[#000000cc]" 
                          id="prev"></button>
-                         <div class="w-full flex">
+                         <div class="w-full flex leading-[25px]">
                               <div class="w-[50%] overflow-hidden " id="projectsHolder">
-                                   <div class="flex flex-col" >
-                                        <div id="ProjectName">Name</div> <!-- projectsList[ProjectsIndex].ProjectName -->
+                                   <div class="flex flex-col mb-2" >
+                                        <div class="text-center underline" id="ProjectName">Name</div> <!-- projectsList[ProjectsIndex].ProjectName -->
                                         <div id="ProjectFinished">Finished:</div> <!--projectsList[ProjectsIndex].projectFinished  -->
                                    </div>
-                                   <div id="ProjectDescription">description</div> <!-- projectsList[projectIndex].projectDescription -->
+                                   <div class=" mb-2" id="ProjectDescription">description</div> <!-- projectsList[projectIndex].projectDescription -->
+                                   <a href="" id="ProjectLink" target="_blank">Link</a>
                               </div>
                               <div class="w-[60%] overflow-hidden rounded-r-lg mr-[-10%]">
-                                   <img src="" alt="Gnome" id="ProjectsCaraselBg" class="h-max w-full"/>
+                                   <img src="" alt="ProjectImg" id="ProjectsCaraselBg" class="h-full w-auto"/>
                               </div>
                          </div>
                          <button class="bg-[#000000aa] w-[10%] rounded-r-lg text-white hover:bg-[#000000cc]" 
@@ -91,10 +92,12 @@
           </section>
          
           <!-- CV -->
-          <section class="w-screen h-screen" id="CV">
+          <section class="w-screen h-full" id="CV">
                <div class="w-[75%] h-[75%] ml-[12.5%] leading-[55px] mb-[12.5%]">
                     <h3 class="text-[80px] px-2 pt-[5%]">CV</h3>
                     <h3 class="text-[45px] px-2 pb-[5%]">Section for my cv</h3>
+                    <embed src="https://docs.google.com/document/d/1kTN8DZzb7442lYHsCG5BQgCoaSRUZFcvNvjjkr24og0/edit?usp=sharing" class="w-full h-[80vh] mb-20" >
+                    
                </div>
           </section>
      </div>
